@@ -7,7 +7,9 @@
       "Bash(python3 -m pytest:*)",
       "Bash(python -m py_compile:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)"
     ]
   }
 }
