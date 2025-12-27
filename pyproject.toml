@@ -1,0 +1,16 @@
+[project]
+name = "todo-console"
+version = "0.1.0"
+description = "In-memory Python console todo application"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+todo = "src.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
