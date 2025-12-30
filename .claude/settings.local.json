@@ -9,7 +9,11 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git remote add:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(python -m src.main:*)",
+      "Bash(python3:*)",
+      "Bash(where:*)",
+      "Bash(.specify/scripts/bash/create-phr.sh:*)"
     ]
   }
 }
